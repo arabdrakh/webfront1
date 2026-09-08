@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Webpage</title>
+  
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-color: #f4f7f6;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-section">
+    <!-- Step 13, 14. ID Selector -->
+    <h1 id="main-heading">Aruzhan Abdrakhmanova</h1>
+    <h2> IT-2501 Computer science</h2>
+    <h3>About Me</h3>
+    
+    <p style="color: darkgreen;">
+      Idk what to write here tbh
+    </p>
+
+    <p>My mood today: tired and wanna get a rest</p>
+  </div>
+
+  <div class="main-section">
+
+    <div class="photo-container">
+      <img src="assets/photo.jpg" alt="my photo" class="profile-img">
+    </div>
+
+    <h2>My Hobbies & Favorite Websites</h2>
+    <h3>My Hobbies (Ordered List)</h3>
+    <ol>
+      <li>Coding (somehow i like it)</li>
+      <li>Drawing</li>
+      <li>Creating 3D models ig</li>
+    </ol>
+
+    <h3>Favorite Websites (Unordered List & Links)</h3>
+    <ul>
+      <li><a href="https://neal.fun" target="_blank" class="highlight">Neal.fun</a> (funny site))</li>
+      <li><a href="https://igru.net/" target="_blank">GAMES!</a></li>
+    </ul>
+
+    <button type="button" class="btn">Click Me</button>
+
+    <hr>
+
+    <h2>Weekly Class Schedule</h2>
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Day</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Discrrete mathematics</td>
+          <td>Monday</td>
+          <td>14:00 - 16:00</td>
+        </tr>
+        <tr>
+          <td>Web technologies</td>
+          <td>Tuesday</td>
+          <td>14:00 - 16:00</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>PE</td>
+          <td>14:00 - 16:00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Table Layout Challenge</h2>
+    <table class="layout-table">
+      <tr>
+        <td class="menu-col">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </td>
+        <td class="content-col">
+          <p class="highlight">This is the main content area inside a table-based two-column layout challenge.</p>
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <h2>Contact Form</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" value="#3498db">
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <hr>
+
+    <h2>CSS Positioning & Layout Demo</h2>
+    <div class="positioning-container">
+      <div class="box box-static">Static Position</div>
+      <div class="box box-relative">Relative Position (Shifted)</div>
+      <div class="box box-absolute">Absolute Position</div>
+    </div>
+
+    <div class="float-container">
+      <div class="float-box float-left">Float Left</div>
+      <div class="float-box float-right">Float Right</div>
+      <div class="clearfix"></div>
+    </div>
+
+  </div>
+
+  <div class="footer-section">
+    <p>&copy; 2026 Aruzhan Abdrakhmanova. for assignment #1.</p>
+  </div>
+
+</body>
+</html>
