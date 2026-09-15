@@ -4,144 +4,170 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Webpage</title>
-  
+
   <link rel="icon" type="image/png" href="assets/favicon.png">
-  
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
     body {
-      background-color: #f4f7f6;
-      font-family: Arial, sans-serif;
+      background-color: #1B1620;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, .section-title {
+      font-family: 'Fraunces', serif;
     }
   </style>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="header-section">
-    <!-- Step 13, 14. ID Selector -->
-    <h1 id="main-heading">Aruzhan Abdrakhmanova</h1>
-    <h2> IT-2501 Computer science</h2>
-    <h3>About Me</h3>
-    
-    <p style="color: darkgreen;">
-      Idk what to write here tbh
-    </p>
-
-    <p>My mood today: tired and wanna get a rest</p>
-  </div>
-
-  <div class="main-section">
-
-    <div class="photo-container">
-      <img src="assets/photo.jpg" alt="my photo" class="profile-img">
-    </div>
-
-    <h2>My Hobbies & Favorite Websites</h2>
-    <h3>My Hobbies (Ordered List)</h3>
-    <ol>
-      <li>Coding (somehow i like it)</li>
-      <li>Drawing</li>
-      <li>Creating 3D models ig</li>
-    </ol>
-
-    <h3>Favorite Websites (Unordered List & Links)</h3>
+  <nav class="side-nav">
     <ul>
-      <li><a href="https://neal.fun" target="_blank" class="highlight">Neal.fun</a> (funny site))</li>
-      <li><a href="https://igru.net/" target="_blank">GAMES!</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#likes">Hobbies &amp; Sites</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#mood">Mood</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#playground">Playground</a></li>
     </ul>
+  </nav>
 
-    <button type="button" class="btn">Click Me</button>
-
-    <hr>
-
-    <h2>Weekly Class Schedule</h2>
-    <table class="schedule-table">
-      <thead>
-        <tr>
-          <th>Subject</th>
-          <th>Day</th>
-          <th>Time</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Discrrete mathematics</td>
-          <td>Monday</td>
-          <td>14:00 - 16:00</td>
-        </tr>
-        <tr>
-          <td>Web technologies</td>
-          <td>Tuesday</td>
-          <td>14:00 - 16:00</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>PE</td>
-          <td>14:00 - 16:00</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <hr>
-
-    <h2>Table Layout Challenge</h2>
-    <table class="layout-table">
-      <tr>
-        <td class="menu-col">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </td>
-        <td class="content-col">
-          <p class="highlight">This is the main content area inside a table-based two-column layout challenge.</p>
-        </td>
-      </tr>
-    </table>
-
-    <hr>
-
-    <h2>Contact Form</h2>
-    <form class="contact-form">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder="Enter your name">
+  <div class="main-content">
+    <header class="hero">
+      <div class="wrap">
+        <p class="eyebrow">dev log &mdash; index.html</p>
+        <h1 id="main-heading">Aruzhan Abdrakhmanova</h1>
+        <h2>IT&#8209;2501 &middot; Computer Science</h2>
+        <p class="tagline">Idkwth.</p>
       </div>
+    </header>
 
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="Enter your email">
-      </div>
+    <main class="wrap">
 
-      <div class="form-group">
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color" name="color" value="#3498db">
-      </div>
+      <section class="section" id="about">
+        <h3 class="section-title">About Me</h3>
+        <div class="about-grid">
+          <img src="assets/photo.jpg" alt="my photo" class="portrait" width="220" height="220">
+          <div>
+            <p style="color:#C97B84;">
+              Hi, I'm Aruzhan &mdash; a student
+            </p>
+            <p class="highlight">
+              Right now I'm building a horror game with an AI-driven character who reacts to the
+              player and stalker it.
+            </p>
+            <button type="button" class="btn">Click Me</button>
+          </div>
+        </div>
+      </section>
 
-      <button type="submit" class="submit-btn">Submit</button>
-    </form>
+      <section class="section" id="likes">
+        <div class="two-col">
+          <div>
+            <h3 class="section-title">Hobbies</h3>
+            <ol class="hobby-list">
+              <li>Coding</li>
+              <li>Drawing</li>
+              <li>Creating 3D models</li>
+              <li>Taking care of my flowers</li>
+            </ol>
+          </div>
+          <div>
+            <h3 class="section-title">Favorite Websites</h3>
+            <ul class="site-list">
+              <li><a href="https://neal.fun/" target="_blank" rel="noopener">Neal.fun</a> &mdash; interactive &amp; fun mini-games</li>
+              <li><a href="https://www.crazygames.com/" target="_blank" rel="noopener">CrazyGames</a> &mdash; nostalgic games from my childhood</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <hr>
+      <section class="section" id="schedule">
+        <h3 class="section-title">Weekly Schedule</h3>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Subject</th>
+              <th>Day</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Discrete math</td>
+              <td>Monday</td>
+              <td>14:00 &ndash; 14:50</td>
+            </tr>
+            <tr>
+              <td>Discrete math</td>
+              <td>Monday</td>
+              <td>12:00 &ndash; 13:30</td>
+            </tr>
+            <tr>
+              <td>WEb tech &amp;</td>
+              <td>Tuesday</td>
+              <td>14:00 &ndash; 16:00</td>
+            </tr>
+            <tr>
+              <td>Web tech</td>
+              <td>Thursday</td>
+              <td>14:00 &ndash; 15:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-    <h2>CSS Positioning & Layout Demo</h2>
-    <div class="positioning-container">
-      <div class="box box-static">Static Position</div>
-      <div class="box box-relative">Relative Position (Shifted)</div>
-      <div class="box box-absolute">Absolute Position</div>
-    </div>
+      <section class="section" id="mood">
+        <h3 class="section-title">Mood today</h3>
+        <p>
+          Not bad
+        </p>
+      </section>
 
-    <div class="float-container">
-      <div class="float-box float-left">Float Left</div>
-      <div class="float-box float-right">Float Right</div>
-      <div class="clearfix"></div>
-    </div>
+      <section class="section" id="contact">
+        <h3 class="section-title">Say Hi</h3>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
 
-  </div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
 
-  <div class="footer-section">
-    <p>&copy; 2026 Aruzhan Abdrakhmanova. for assignment #1.</p>
+          <label for="color">Favorite Color</label>
+          <input type="color" id="color" name="color" value="#9c8aa5">
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+
+      <section class="section" id="playground">
+        <h3 class="section-title">Small CSS Experiments</h3>
+        <p class="muted">A few tiny sandboxes from learning the box model, positioning, and floats.</p>
+
+        <div class="box-demo">Box model: border, margin &amp; padding</div>
+
+        <div class="position-demo">
+          <div class="pos pos-static">static</div>
+          <div class="pos pos-relative">relative</div>
+          <div class="pos pos-absolute">absolute</div>
+        </div>
+
+        <div class="float-demo">
+          <div class="float-box float-left">float: left</div>
+          <div class="float-box float-right">float: right</div>
+          <div class="clear"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p class="wrap">Built by Aruzhan Abdrakhmanova &middot; HTML &amp; assignment</p>
+    </footer>
   </div>
 
 </body>
