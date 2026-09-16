@@ -23,14 +23,17 @@ In this project, I built a personal portfolio page with a floating sidebar navig
 <img width="801" height="530" alt="image" src="https://github.com/user-attachments/assets/71abcf18-3ef5-4a71-b230-310e024a8c40" />
 
 
-
+---
 ## What I ve done
+
+
 I set up the document boilerplate and organized the content using semantic tags including <h1> through <h3> headings, <p> paragraphs, and <div> containers. I implemented essential attributes like id, class, and type to structure elements logically and make them accessible for styling. Then created navigation so I will better know what I m going to do. 
 I worked with inline, internal, and external CSS styling methods(more for external CSS)
 Then created form, table, 2columns with info about me.
 I applied the CSS Box Model to control element dimensions and spacing. I used padding to create inner spacing between content and borders, margin to manage outer spacing between adjacent blocks (including horizontal centering), and configured explicit border properties.
 I implemented different CSS positioning techniques to control document flow. I used position relative on parent containers to create coordinate frames for position: absolute child elements, applied position: fixed to anchor elements to the viewport, and used float alongside clear properties to adjust block positioning.
 
+---
 ## Repository Structure
 
 ```text
