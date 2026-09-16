@@ -27,7 +27,7 @@ In this project, I built a personal portfolio page with a floating sidebar navig
 ## What I ve done
 
 
-I set up the document boilerplate and organized the content using semantic tags including <h1> through <h3> headings, <p> paragraphs, and <div> containers. I implemented essential attributes like id, class, and type to structure elements logically and make them accessible for styling. Then created navigation so I will better know what I m going to do. 
+I set up the document boilerplate and organized the content using semantic tags including h1 through h3 headings, paragraphs, and div containers. I implemented essential attributes like id, class, and type to structure elements logically and make them accessible for styling. Then created navigation so I will better know what I m going to do. 
 I worked with inline, internal, and external CSS styling methods(more for external CSS)
 Then created form, table, 2columns with info about me.
 I applied the CSS Box Model to control element dimensions and spacing. I used padding to create inner spacing between content and borders, margin to manage outer spacing between adjacent blocks (including horizontal centering), and configured explicit border properties.
