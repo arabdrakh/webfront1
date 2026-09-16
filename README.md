@@ -16,11 +16,15 @@ In this project, I built a personal portfolio page with a floating sidebar navig
 
 ---
 ## Screenshots
+
+<img width="1561" height="413" alt="image" src="https://github.com/user-attachments/assets/72c688ce-0fc4-46c3-a8db-b0fe44511641" />
+<img width="441" height="726" alt="image" src="https://github.com/user-attachments/assets/ff4a2914-b956-42c5-bf07-6adc8b220bee" />
 <img width="903" height="680" alt="image" src="https://github.com/user-attachments/assets/1c2b5f53-9412-40d4-8ea7-07dddaab440c" />
 <img width="881" height="332" alt="image" src="https://github.com/user-attachments/assets/8abd8e55-a12a-4493-a101-3525721e8d8b" />
 <img width="798" height="380" alt="image" src="https://github.com/user-attachments/assets/03c27e85-a918-4953-8b13-4455261ff43c" />
 <img width="759" height="474" alt="image" src="https://github.com/user-attachments/assets/56af6c03-781c-4020-80d0-becaba0d262a" />
 <img width="801" height="530" alt="image" src="https://github.com/user-attachments/assets/71abcf18-3ef5-4a71-b230-310e024a8c40" />
+<img width="895" height="149" alt="image" src="https://github.com/user-attachments/assets/e9cce51f-e2af-453e-b2ab-ccd78f327f4e" />
 
 
 ---
